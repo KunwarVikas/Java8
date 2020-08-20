@@ -1,6 +1,6 @@
 package main.com.kv.java8.defaultmethod;
 
-
+@FunctionalInterface
 public interface Interface2 {
 
     void method2();

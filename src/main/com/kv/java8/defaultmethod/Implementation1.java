@@ -1,6 +1,6 @@
 package main.com.kv.java8.defaultmethod;
 
-public class Implementation implements Interface1, Interface2 {
+public class Implementation1 implements Interface1, Interface2 {
     @Override
     public void method1() {
 
@@ -18,7 +18,7 @@ public class Implementation implements Interface1, Interface2 {
     }
 
     public static void main(String[] args) {
-        Interface1 impl = new Implementation();
+        Interface1 impl = new Implementation1();
         impl.log("hello dear");
     }
 
