@@ -1,4 +1,4 @@
-package main.com.kv.java8.TimeApi;
+package main.com.kv.java8.timeapi;
 
 import java.time.LocalDate;
 import java.time.Month;
